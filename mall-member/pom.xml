@@ -11,5 +11,12 @@
 
     <artifactId>mall-member</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.huazheng</groupId>
+            <artifactId>mall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
