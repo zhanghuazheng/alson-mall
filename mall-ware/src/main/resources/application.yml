@@ -7,6 +7,10 @@ spring:
     url: jdbc:mysql://192.168.50.100:3306/mall_wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
 server:
   port: 13000
 
