@@ -40,6 +40,13 @@ public class OrderController {
         return R.ok().put("page", page);
     }
 
+    @RequestMapping("/member/list")
+    public R memberList(){
+        OrderEntity orderEntity = new OrderEntity();
+        orderEntity.setOrderSn("1222");
+        return R.ok().put("list", Arrays.asList(orderEntity));
+    }
+
 
     /**
      * 信息
