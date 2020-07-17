@@ -1,4 +1,4 @@
-package com.hauzheng.order;
+package com.huazheng.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
