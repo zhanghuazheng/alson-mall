@@ -1,1 +1,23 @@
+spring:
+  application:
+    name: mall-member
+  datasource:
+    #MySQL配置
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.50.100:3306/mall_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+server:
+  port: 10000
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/member/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+logging:
+  level:
+    com.huazheng.product: debug
 
