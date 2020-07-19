@@ -11,6 +11,7 @@
         <module>renren-fast</module>
         <module>mall-common</module>
         <module>renren-generator</module>
+        <module>mall-gateway</module>
     </modules>
     <groupId>com.huazheng</groupId>
     <artifactId>alson-mall</artifactId>
